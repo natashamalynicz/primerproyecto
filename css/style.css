@@ -1,0 +1,295 @@
+* ¨{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Arbutus+Slab & display=swap');
+
+
+body {
+    background-color: black ;
+}
+
+header {
+    border-bottom: 1px solid #fca311;
+    text-align: center;
+    padding: 30px 40px;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    color: #fca311;
+    font-family: 'Arbutus Slab', serif;
+    justify-content: center;
+    margin-right: 15px ;
+   
+}
+.menu {
+    text-decoration: none;
+    color: #fca311;
+    list-style-type: none;
+    list-style: none;
+    text-transform: uppercase;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem; 
+}
+ 
+li a {
+    text-decoration: none;
+    color:#fca311;
+}
+
+
+
+
+.titulo {
+    font-family: 'Arbutus Slab', serif;
+    color: #fca311;;
+    font-size: 56px;
+    text-align: center;
+    
+}
+
+.imagenprincipal {
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    
+}
+
+
+.quienessomos {
+    padding: 2rem 12rem;  
+
+}
+
+.quienesomosmain {
+text-align: center;
+background-color: #EDAE49;
+color:white
+}
+
+
+
+
+main {
+    padding: 40px;
+}
+
+/*servicios*/
+
+.tarjetitas {
+    display: flex;
+    gap: 80px;
+    
+    
+
+}
+
+.tituloservicios { 
+    font-family:'Arbutus Slab', serif ;
+    text-align: center;
+    color:#EDAE49
+}
+
+ 
+.serviciotecnico {
+    margin-top: 50px;
+    width: 300px;
+    background-color:#EDAE49;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-inline: 20px;
+}
+
+.imagenserviciotecnico {
+    width: 100%;
+}
+
+.tituloserviciotecnico {
+    font-size: 36px;
+    text-align: center;
+
+
+}
+
+.parrafoserviciotecnico {
+    font-size: 24px;
+    text-align: center;
+
+}
+
+
+.ventadeequipos {
+    margin-top: 50px;
+    width: 300px;
+    background-color:#EDAE49;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-inline: 20px;
+    
+   
+}
+.imagendeventadeequipos {
+    width: 100%;
+}
+
+
+    
+
+
+
+
+.tituloventadeeqipos {
+    font-size: 36px;
+    text-align: center;
+
+}
+.parrafoventadeequipos {
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.enviosexpress {
+    margin-top: 50px;
+    width: 300px;
+    background-color:#EDAE49;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-inline: 20px;
+
+}
+
+.imagenenvioexpress {
+    width: 100%;
+}
+
+.tituloenvioexpress {
+    font-size: 36px;
+    text-align: center;
+}
+
+.parrafoenvioexpress {
+    font-size: 24px;
+    text-align: center;
+}
+
+/*style preguntas frecuentes*/
+
+main h1 {
+    font-family: 'Arbutus Slab', serif;
+    color: #EDAE49;
+    font-size:36px ;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.imagenpreguntasfrecuentes {
+    width: 100%;
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+
+
+}
+
+.garantia {
+    background-color: #EDAE49;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    text-align: center;
+
+}
+.demoradelserviciotecnico {
+    background-color: #EDAE49;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.realizanenvios{
+    background-color: #EDAE49;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+/*contactos*/
+
+.section-title {
+    font-family: 'Arbutus Slab', serif ;
+    text-align: center;
+    color:#EDAE49
+}
+
+.form-grup {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*footer*/
+
+footer {
+    background-color: black;
+    color: #fca311;
+    padding: 50px;
+
+}
+
+.footercolumnas {
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+
+.navbarproductos {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
