@@ -21,14 +21,15 @@ header {
     width: 150px;
 }
 
-nav {
-    display: flex;
-    color: #fca311;
-    font-family: 'Arbutus Slab', serif;
-    justify-content: center;
-    margin-right: 15px ;
+
+
+  .bg-custom {
+    background-color: #fca311; 
+    color:black; 
+  }
+
    
-}
+
 .menu {
     text-decoration: none;
     color: #fca311;
@@ -41,10 +42,7 @@ nav {
     gap: 2rem; 
 }
  
-li a {
-    text-decoration: none;
-    color:#fca311;
-}
+
 
 
 
@@ -63,25 +61,38 @@ li a {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    display: flex;
+    display: flex;  
+}
+
+.quienes-somos {
+    font-family:'Arbutus Slab', serif ;
+    text-align: center;
+    color: #EDAE49;
     
 }
 
-
-.quienessomos {
-    padding: 2rem 12rem;  
+.parrafoquienessomos {
+    font-family:'Arbutus Slab', serif ;
+    color: white;
 
 }
 
-.quienesomosmain {
-text-align: center;
-background-color: #EDAE49;
-color:white
+.quenosdistingue {
+    font-family:'Arbutus Slab', serif ;
+    color: #EDAE49;
+    text-align: center;
+}
+
+.parrafosquenosdistingue {
+    color:white;
+    font-family:'Arbutus Slab', serif ;
 }
 
 
+.seccion-presentacion {
+    color: #EDAE49;
 
-
+}
 main {
     padding: 40px;
 }
@@ -89,7 +100,8 @@ main {
 /*servicios*/
 
 .tarjetitas {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 80px;
     
     
@@ -101,6 +113,9 @@ main {
     text-align: center;
     color:#EDAE49
 }
+.tituloservicios:hover {
+    transform: scale(2);
+}
 
  
 .serviciotecnico {
@@ -109,8 +124,10 @@ main {
     background-color:#EDAE49;
     padding: 10px;
     border-radius: 10px;
-    display: inline-block;
+    display:grid;
     margin-inline: 20px;
+    
+    
 }
 
 .imagenserviciotecnico {
@@ -137,7 +154,7 @@ main {
     background-color:#EDAE49;
     padding: 10px;
     border-radius: 10px;
-    display: inline-block;
+    display: grid;
     margin-inline: 20px;
     
    
@@ -169,7 +186,7 @@ main {
     background-color:#EDAE49;
     padding: 10px;
     border-radius: 10px;
-    display: inline-block;
+    display: grid;
     margin-inline: 20px;
 
 }
@@ -188,6 +205,32 @@ main {
     text-align: center;
 }
 
+
+
+
+/*sucursal*/
+.subtitulosucursal {
+    text-align: center;
+    color:#EDAE49;
+    font-family:'Arbutus Slab', serif;
+
+}
+
+.mapasucursal {
+    display: flex;
+    justify-content: center;
+}
+
+.parrafosucursal {
+    text-align: center;
+    color:#EDAE49;
+    font-family:'Arbutus Slab', serif;
+
+}
+
+
+
+
 /*style preguntas frecuentes*/
 
 main h1 {
@@ -195,12 +238,15 @@ main h1 {
     color: #EDAE49;
     font-size:36px ;
     text-align: center;
-    padding: 10px;
+    
     
 }
 
 .imagenpreguntasfrecuentes {
-    width: 100%;
+    display: flex;
+    justify-items: center;
+    width:50%;
+    margin: 20px 20px;
 }
 
 .cards {
@@ -254,26 +300,40 @@ main h1 {
 
 }
 
+
+.imagenpreguntasfrecuentes {
+width: 100%;
+margin: 0;
+padding: 0;
+padding-bottom: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
 /*footer*/
 
-footer {
-    background-color: black;
-    color: #fca311;
-    padding: 50px;
-
-}
-
-.footercolumnas {
-    display:grid;
-    grid-template-columns: 1fr 1fr ;
-}
-
-
-.navbarproductos {
+.footer {
     display: flex;
-    flex-direction: row;
-    text-align: center;
+    justify-content: center;
+    justify-content: center;
+    background-color: #403d39;
+    padding: 1rem;
+    color: #EDAE49;
 }
+
+
+
+
+
+@media (max-width:767px) {
+    .tarjetitas {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+
 
 
 
