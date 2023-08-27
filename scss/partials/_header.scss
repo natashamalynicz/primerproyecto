@@ -1,0 +1,38 @@
+header {
+    border-bottom: 1px solid $colorprincipal;
+    text-align: center;
+    padding: 30px 40px;
+
+    .logo {
+        width: 150px;
+    }
+
+    .titulo{
+        font-family: 'Arbutus Slab', serif;
+        color: $colorprincipal;
+        font-size: 56px;
+        text-align: center;
+   -webkit-animation: bounce-in-fwd 1.1s ;
+                    animation: bounce-in-fwd 1.1s ;
+        
+        
+    }
+
+    .bg-custom {
+        background-color: #fca311; 
+       color:black; 
+     }
+
+     .menu {
+        text-decoration: none;
+        color: $colorprincipal;
+        list-style-type: none;
+        list-style: none;
+        text-transform: uppercase;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem; 
+    }
+     
+ }

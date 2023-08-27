@@ -1,0 +1,12 @@
+.tituloservicios { 
+    font-family:'Arbutus Slab', serif ;
+    display: flex;
+    justify-content: center;
+    color:$colorprincipal;
+
+    .tituloservicios:hover {
+        transform: scale(2);
+    }
+
+
+}

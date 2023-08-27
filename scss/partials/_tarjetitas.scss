@@ -1,0 +1,93 @@
+.tarjetitas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+
+    
+    
+    .serviciotecnico {
+        margin-top: 50px;
+        width: 100%;
+        background-color:$colorprincipal;
+        padding: 10px;
+        border-radius: 10px;
+        display:grid;
+        
+        
+        .imagenserviciotecnico {
+            width: 100%;
+        }
+        
+        .tituloserviciotecnico {
+            font-size: 36px;
+            text-align: center;
+        
+        
+        }
+        
+        .parrafoserviciotecnico {
+            font-size: 24px;
+            text-align: center;
+        
+        }
+    }
+    
+    .ventadeequipos {
+        margin-top: 50px;
+        width: 100%;
+        background-color:$colorprincipal;
+        padding: 10px;
+        border-radius: 10px;
+        display: grid;
+        
+        
+
+        .imagendeventadeequipos {
+            width: 100%;
+        }
+        
+        
+            
+        
+        
+        
+        
+        .tituloventadeeqipos {
+            font-size: 36px;
+            text-align: center;
+        
+        }
+        .parrafoventadeequipos {
+            font-size: 24px;
+            text-align: center;
+        
+        }
+           }
+           .enviosexpress {
+            margin-top: 50px;
+            width: 100%;
+            background-color:$colorprincipal;
+            padding: 10px;
+            border-radius: 10px;
+            display: grid;
+            
+
+
+            .imagenenvioexpress {
+                width: 100%;
+            }
+            
+            .tituloenvioexpress {
+                font-size: 36px;
+                text-align: center;
+            }
+            
+            .parrafoenvioexpress {
+                font-size: 24px;
+                text-align: center;
+            }
+        
+        }
+
+
+        }

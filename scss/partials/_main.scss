@@ -1,0 +1,33 @@
+main {
+
+    padding: 40px;
+
+    .quienes-somos {
+        font-family:'Arbutus Slab', serif ;
+        text-align: center;
+        color: $colorprincipal;
+        
+    }
+
+
+    .parrafoquienessomos {
+        font-family:'Arbutus Slab', serif ;
+        color: white;
+    
+    }
+
+
+
+    .quenosdistingue {
+        font-family:'Arbutus Slab', serif ;
+        color: $colorprincipal;
+        text-align: center;
+    }
+
+
+    .parrafosquenosdistingue {
+        color:white;
+        font-family:'Arbutus Slab', serif ;
+    }
+    
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width:900px) {
+    .tarjetitas {
+        grid-template-columns: 1fr 1fr;
+    }
+    }
+        
+    @media screen and (max-width:600px) {
+        .tarjetitas {
+            grid-template-columns: 1fr;
+        }
+
+        .cards {
+            grid-template-columns: 1fr;
+            justify-items: center;
+        }
+    }
